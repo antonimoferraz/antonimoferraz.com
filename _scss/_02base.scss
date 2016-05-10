@@ -1,0 +1,87 @@
+$bgdark: #232323;
+$bgmed: #2B2928;
+$bglight: #3A3735;
+
+$red: #9B3B23;
+$orange: #DD4E10;
+
+$greendark: #1DAA8B;
+$greenlight: #43CE8B;
+
+$white: #f5f5f5;
+
+$font: "Exo";
+
+html{
+  background-color: $bgdark;
+  font-family: "Exo";
+  color: $white;
+
+}
+
+a{
+  color: $orange;
+  text-decoration: none;
+}
+
+//
+//
+//
+
+#header-space{
+  //margin-top: -9rem;
+}
+.squaremenu{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+    justify-content:         center;
+     align-items:         center;
+      align-content:         center;
+      margin-top: -2rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+}
+
+.menu-item{
+width:100%;
+background-color: $bgmed;
+margin: .3rem;
+display: flex;
+justify-content:         center;
+ align-items:         center;
+//  align-content:         center;
+border: 5px solid $bgdark;
+}
+.menu-item:after{
+  content: "";
+  display: block;
+  padding: 50% 0;
+
+}
+
+.empty{
+  color: $bglight;
+}
+
+.red{background-color: $red;
+
+}
+.red p{
+  padding:1rem;
+}
+
+#triangle, #circle{
+  width:100%;
+  margin: 0.2rem;
+}
+
+.trianglest0:hover{
+  fill: $orange;
+  transition: all .5s;
+}
+
+.circlest0:hover{
+  fill: $greenlight;
+    transition: all .5s;
+}
