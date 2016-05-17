@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Connectlogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="-107 214.5 300 300" style="enable-background:new -107 214.5 300 300;" xml:space="preserve">
+<style type="text/css">
+	.ast0{fill:#232323;}
+	.ast1{fill:#2B2928;}
+	.ast2{fill:#1DAA8B;}
+	.ast3{fill:#168068;}
+	.ast4{fill:#4ABBA2;}
+	.ast5{fill:none;stroke:#2CFFD1;stroke-miterlimit:10;}
+	.ast6{fill:#56FFDA;}
+	.ast7{fill:#21BF9D;}
+</style>
+<g>
+	<g id="XMLID_28_">
+		<polygon id="XMLID_12_" class="ast0" points="-61.8,420.9 38.7,246.9 139,420.9 		"/>
+		<polygon id="XMLID_26_" class="ast1" points="-61.8,420.9 38.7,246.9 38.7,420.9 		"/>
+	</g>
+	<polygon id="XMLID_2_" class="ast2" points="-36.3,405.7 38.7,275.9 113.7,405.7 	"/>
+	<polygon id="XMLID_8_" class="ast3" points="7.4,379.9 38.7,325.9 69.8,379.9 	"/>
+	<polygon id="XMLID_11_" class="ast4" points="38.7,379.9 38.7,325.9 69.8,379.9 	"/>
+	<line id="stroke3" class="ast5" x1="38.7" y1="363" x2="130.4" y2="310.5"/>
+	<line id="stroke2" class="ast5" x1="38.7" y1="363" x2="-53" y2="310.4"/>
+	<line id="stroke1" class="ast5" x1="38.7" y1="363" x2="38.7" y2="468.6"/>
+	<circle id="half1light" class="ast6" cx="139" cy="304.1" r="13.5"/>
+	<circle id="half2light" class="ast6" cx="-53" cy="304.1" r="13.5"/>
+	<circle id="half3light" class="ast6" cx="38.7" cy="468.6" r="13.5"/>
+	<path id="half2" class="ast7" d="M-53,290.6c-7.4,0-13.5,6-13.5,13.5c0,7.5,6,13.5,13.5,13.5"/>
+	<path id="half3" class="ast7" d="M38.7,455.1c-7.4,0-13.5,6-13.5,13.5c0,7.4,6,13.5,13.5,13.5"/>
+	<path id="half1" class="ast7" d="M139,290.6c-7.4,0-13.5,6-13.5,13.5c0,7.5,6,13.5,13.5,13.5"/>
+</g>
+</svg>

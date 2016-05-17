@@ -15,29 +15,27 @@
     </head>
     <body>
 
+      <!-- <div class="wrapall"> -->
 
+           <div class="thenav">
+               {% include nav.html %}
+           </div>
 
-          {{ content }}
+           <div class="thecontent">
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name is<br />
-                What You Are<br />
-                you@example.com
-              </p>
+              {{ content }}
+              <div>
+              {% include header3.svg %}
             </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+              {% include footer.html %}
+           </div>
+
+      <!-- </div> -->
 
     </body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    <script type="text/javascript" src="/assets/js/FTColumnflow.js"></script>
+
     <script type="text/javascript" src="/assets/js/main.js"></script>
 </html>

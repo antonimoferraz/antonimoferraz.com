@@ -1,0 +1,30 @@
+.content-sec{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collumn{
+  width: 15%;
+  background-color: $bgmed;
+  margin: 2rem;
+  margin-right: .1rem;
+  padding: 2.5rem;
+
+}
+
+.pictures{
+  width: 15%;
+  background-color: $bgmed;
+  margin: 2rem;
+  margin-right: .1rem;
+  padding: 2.5rem;
+
+}
+
+.content{
+  width: 60%;
+  background-color: $bgmed;
+  margin: 2rem;
+  padding: 2.5rem;
+
+}

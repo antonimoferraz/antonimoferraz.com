@@ -2,19 +2,31 @@
 layout: default
 title: Homepage
 ---
-{% include header.svg %}
+<div class="indexheader">
+ {% include header5.svg %}
+ </div>
+
 <div class="squaremenu">
-<div class="menu-item red"><p>i'm Antónimo,<br/> i do web, design and art</p></div>
-<div class="menu-item">{% include triangle.svg %}</div>
-<div class="menu-item empty">{% include circle.svg %}</div>
-<div class="menu-item empty">empty</div>
+
+  <div class="intro">
+    <div class="menu-item message-board">
+      <p>i'm Antónimo,<br/> i do web, design and art</p>
+    </div>
+  </div>
+
+  <div class="islandinfo">
+   {% include island.svg  %}
+   </div>
+
 
 </div>
-<div id="home">
+
+
+<!-- <div id="home">
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-</div>
+</div> -->
