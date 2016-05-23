@@ -2,3 +2,42 @@ name: antonimoferraz.xyz
 markdown: kramdown
 highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+permalink: /:title.html
+title: antonimoferraz
+
+
+navigation:
+- text: Homepage
+  url: index.html
+- text: Websites
+  url: websites.html
+- text: Graphics
+  url: graphics.html
+- text: joaosaramago.com
+  url: /joaosaramago.html
+- text: wamae.pt
+  url: /wamae.html
+- text: apaladewalsh.com
+  url: /paladewalsh.html
+- text: punkdamour.pt
+  url: /punkdamour.html
+- text: antonimoferraz.xyz
+  url: /antonimoferraz.html
+
+
+navigationweb:
+- text: joaosaramago.com
+  url: /joaosaramago.html
+  gothere: http://joaosaramago.com
+- text: wamae.pt
+  url: /wamae.html
+  gothere: http://wamae.pt
+- text: apaladewalsh.com
+  url: /pala.html
+  gothere: http://apaladewalsh.pt
+- text: punkdamour.pt
+  url: /punk.html
+  gothere: http://punkdamour.pt
+- text: antonimoferraz.xyz
+  url: /antonimoferraz.html
+  gothere: /#

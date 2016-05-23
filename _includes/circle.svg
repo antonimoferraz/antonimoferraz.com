@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
-<style type="text/css">
-	.circlest0{fill:#852c16;}
-</style>
-<g id="XMLID_2_">
-	<path id="XMLID_3_" class="circlest0" d="M150,290.8C72.4,290.8,9.2,227.7,9.2,150C9.2,72.3,72.4,9.2,150,9.2S290.9,72.3,290.9,150
-		C290.9,227.7,227.7,290.8,150,290.8z M150,30.2C84,30.2,30.2,83.9,30.2,150S84,269.8,150,269.8c66.1,0,119.8-53.8,119.8-119.8
-		S216.1,30.2,150,30.2z"/>
+	 viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+<g id="side-Graphics">
+	<text transform="matrix(1 0 0 1 71.0972 244.8291)" fill="#DDDDDD" font-family="'Exo-Regular'" font-size="40.8826px">Graphics</text>
+	<text transform="matrix(1 0 0 1 71.0972 244.8291)" fill="#DDDDDD" font-family="'Exo-Regular'" font-size="40.8826px">Graphics</text>
 </g>
+<circle id="centertri" fill="#9B3B23" fill-opacity="0" cx="347.7" cy="141.6" r="7.1"/>
+<path fill="#EDAD0C" d="M150,39c-37.5,0-68,30.4-68,68s30.4,68,68,68c37.6,0,68-30.4,68-68C218,69.4,187.5,39,150,39z M150,157
+	c-13.3,0-25.9-5.2-35.3-14.7c-9.4-9.4-14.7-22-14.7-35.3s5.2-25.9,14.7-35.3c9.4-9.4,22-14.7,35.3-14.7s25.9,5.2,35.3,14.7
+	c9.4,9.4,14.7,22,14.7,35.3s-5.2,25.9-14.7,35.3C175.9,151.7,163.3,157,150,157z"/>
 </svg>

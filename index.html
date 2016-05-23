@@ -3,10 +3,10 @@ layout: default
 title: Homepage
 ---
 <div class="indexheader">
- {% include header5.svg %}
+ {% include header-island.svg %}
  </div>
 
-<div class="squaremenu">
+<div class="indexcontent1">
 
   <div class="intro">
     <div class="menu-item message-board">
@@ -18,15 +18,17 @@ title: Homepage
    {% include island.svg  %}
    </div>
 
-
+<div class="abilities-container">
+  <p>Tech Abilities</p>
+   <ul class="abilities">
+     <li class="ability-photoshop">Photoshop</li>
+     <li class="ability-illustrator">Illustrator</li>
+     <li class="ability-ui">UI design</li>
+     <li class="ability-html">HTML</li>
+     <li class="ability-css">SASS</li>
+     <li class="ability-git">git</li>
+     <li class="ability-jekyll">Jekyll</li>
+   </ul>
 </div>
 
-
-<!-- <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div> -->
+</div>

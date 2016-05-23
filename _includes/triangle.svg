@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="triangle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
-<style type="text/css">
-	.trianglest0{fill:#852c16;}
-</style>
-<g id="XMLID_1_">
-	<path id="XMLID_3_" class="trianglest0" d="M297.4,276H2.6L150,20.8L297.4,276z M47.7,250h204.7L150,72.8L47.7,250z"/>
+	 viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+<circle id="centertri" fill="#9B3B23" fill-opacity="0" cx="150" cy="137.1" r="7.1"/>
+<g>
+	<rect x="33" y="206.3" fill="none" width="234" height="56.9"/>
+</g>
+<path fill="#1DAA8B" d="M150,26.5l-79.1,137h158.2L150,26.5z M150,63.6l48.4,83.7h-96.7L150,63.6z"/>
+<g id="side-Graphics_1_">
+	<text transform="matrix(1 0 0 1 70.8998 221)" fill="#DDDDDD" font-family="'Exo-Regular'" font-size="40px">Websites</text>
 </g>
 </svg>

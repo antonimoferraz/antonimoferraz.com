@@ -1,9 +1,68 @@
 ---
-layout: default
+layout: websites
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
-</div>
+<div class="indexheader">
+   {% include header-island-web.svg %}
+ </div>
+
+
+<div class="webcontainer">
+
+
+
+
+     <div class="menuwebsites">
+         {% unless page.layout == 'front' %}
+
+           <ul  id="sneakytest" class="navigation">
+             {% for link in site.navigationweb %}
+               {% assign current = nil %}
+               {% if page.url == link.url or page.layout == link.layout %}
+                 {% assign current = 'current' %}
+               {% endif %}
+
+               <li  id="next" class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+                 <a   class="webmenulink {{ current }}" href="{{ link.url }}">{{ link.text }} </a>
+               </li>
+
+
+             {% endfor %}
+           </ul>
+         {% endunless %}
+     </div>
+
+     <div class="website-picture">
+       <img class="website-feature" src="{{site.baseurl}}{{page.featuredimage}}" alt="">
+       {% if page.gotherebotton %}
+       <a class="gotherebotton" href="{{page.gothere}}" target="_blank">Go There</a>
+       {% endif %}
+     </div>
+
+
+
+  </div>  <!-- webcontainer -->
+
+  <div class="webcontainer2">
+
+    <div class="post">
+      {{ content }}
+    </div>
+
+          <div class="languages">
+            <h1>Languages</h1>
+                <ul class="techlist">
+
+                    {% for tags in page.tags %}
+                      <li>{{ tags }}</li>
+                    {% endfor %}
+
+                </ul>
+          </div>
+
+
+
+
+
+
+  </div>  <!-- webcontainer2 -->

@@ -1,15 +1,7 @@
 <!-- nav fixed -->
 
 <div class="mobile-nav">
-      <!-- <ul class="mymenu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="">Hello</a></li>
-        <li><a href="index_web_js.html">Websites</a></li>
-        <li><a href="index5.html">Web Lab</a></li>
-        <li><a href="index_graph.html">Graphics</a></li>
-        <li><a href="#">Graphics Lab</a></li>
-        <li><a href="#">Contacts</a></li>
-      </ul> -->
+
       <div class="nav-item menu-tri">
           <a href="websites.html">
           {% include triangle.svg %}
@@ -29,39 +21,38 @@
 
 
 <div class="wrap-header">
-<header class="wrap-position">
-  <div>
-  <a href="index.html"><div class="letterA"> </div>
-  <!-- <p class="mytag">web, design, art</p> -->
-  </div></a>
-  <nav class="site-nav">
-              <!-- <ul class="mymenu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="">Hello</a></li>
-              <li><a href="index_web_js.html">Websites</a></li>
-              <li><a href="index5.html">Web Lab</a></li>
-              <li><a href="index_graph.html">Graphics</a></li>
-              <li><a href="#">Graphics Lab</a></li>
-              <li><a href="#">Contacts</a></li>
-            </ul> -->
-            <div class="nav-item menu-tri">
-                <a href="websites.html">
-                {% include triangle.svg %}
-                </a>
-                <div class="info"><p>Websites</p></div>
-            </div>
+  <header class="wrap-position">
 
-            <div class="nav-item menu-cir">
-                <a href="graphics.html">
-                  {% include circle.svg %}
-                </a>
-                <div class="info"><p>Graphics</p></div>
-            </div>
+<div class="copy-right-container"><p class="copy-right">antonimo ferraz</p></div>
 
-  </nav>
-  <a href="mailto:antonimoferraz@gmail.com" class="email-link">email me</a>
-  <p class="email-link">© 2016</p>
 
-  <div class="mobile-nav-toggle"><span></span></div>
-</header>
+      <nav class="site-nav">
+
+        <div>
+          <a href="index.html">
+            <div class="nav-item menu-tri"> {% include square.svg %}</div>
+          </a>
+        </div>
+
+          <div class="nav-item menu-tri">
+              <a href="websites.html">
+              {% include triangle.svg %}
+              </a>
+
+          </div>
+
+          <div class="nav-item menu-cir">
+              <a href="graphics.html">
+                {% include circle.svg %}
+              </a>
+
+          </div>
+
+      </nav>
+
+      <p class="copy-right">© 2016</p>
+
+      <div class="mobile-nav-toggle"><span></span></div>
+
+  </header>
 </div>

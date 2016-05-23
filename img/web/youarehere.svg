@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 365" enable-background="new 0 0 600 365" xml:space="preserve">
+<g>
+	<g id="XMLID_281_">
+		<rect id="XMLID_296_" x="287.3" y="61" fill="#168068" width="24.5" height="243"/>
+		<rect id="XMLID_295_" x="204.8" y="151.6" fill="#232323" width="190.3" height="76.8"/>
+		<circle id="XMLID_294_" fill="#E9A30C" cx="300" cy="190.1" r="38.3"/>
+		<rect id="XMLID_293_" x="204.8" y="228.5" fill="#EDB53D" width="190.3" height="17.9"/>
+		
+			<rect id="XMLID_291_" x="376.7" y="107.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 40.4324 329.6639)" fill="#742C1A" width="83" height="17.9"/>
+		
+			<rect id="XMLID_290_" x="140.5" y="255.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -133.5045 206.0165)" fill="#EDB53D" width="83" height="17.9"/>
+		
+			<rect id="XMLID_289_" x="409.2" y="222.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -64.3576 373.0494)" fill="#EDB53D" width="17.9" height="83"/>
+		
+			<rect id="XMLID_288_" x="172.9" y="74.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.7976 162.5717)" fill="#742C1A" width="17.9" height="83"/>
+		<path id="XMLID_287_" fill="#AF7A09" d="M300,228.5c-21.2,0-38.3-17.3-38.3-38.3s17.3-38.3,38.3-38.3"/>
+		<rect id="XMLID_286_" x="204.8" y="133.7" fill="#742C1A" width="190.3" height="17.9"/>
+		<circle id="XMLID_285_" fill="#742C1A" cx="300" cy="190.1" r="21.7"/>
+		<path id="XMLID_284_" fill="#9B3B23" d="M278.3,190.1c0-12,9.7-21.7,21.7-21.7c12,0,21.7,9.7,21.7,21.7"/>
+		<polygon id="XMLID_283_" fill="#168068" points="146.3,93 146.3,287.1 204.8,228.4 204.8,151.6 		"/>
+		<polygon id="XMLID_282_" fill="#168068" points="395.1,151.6 395.1,228.5 453.8,287.1 453.8,93.1 		"/>
+	</g>
+	<rect x="146.2" y="176.2" fill="none" width="307.6" height="28"/>
+	<text transform="matrix(1 0 0 1 206.0688 201.5342)" fill="#F2F2F2" font-family="'MyriadPro-Regular'" font-size="35.7227px">You are here</text>
+</g>
+</svg>
