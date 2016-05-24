@@ -6,7 +6,7 @@ categories: websites
 feature: true
 featuredimage: "/img/web/youarehere.svg"
 secondimage: "/img/web/joaosaramago.gif"
-tags: HTML CSS SASS jQuery Jekyll Git Github-pages Liquid
+tags: HTML CSS SASS jQuery Jekyll Git Github-pages Liquid SVG
 gotherebotton: false
 ---
 
@@ -26,4 +26,4 @@ I also wanted a big emphasis on illustration. not only for the look and feel but
 #### opportunities:
 
 Had to come out of my comfort zone.
-well this was a good opportunity to make myself better at technologies i wasn't proficient. so thanks to this i'm good in Liquid, Jekyll and git. 
+well this was a good opportunity to make myself better at technologies i wasn't proficient. so thanks to this i'm good in Liquid, Jekyll and git.

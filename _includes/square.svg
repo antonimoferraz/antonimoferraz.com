@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="menu-square" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
@@ -9,14 +9,11 @@
 		<text id="side-z" transform="matrix(1 0 0 1 157.2994 149.6671)" fill="#1DAA8B" font-family="'HelveticaNeue-Light'" font-size="55.7335px">z</text>
 </g>
 <circle id="centertri" fill="#9B3B23" fill-opacity="0" cx="334.1" cy="113.2" r="7.1"/>
-<path fill="#9B3B23" d="M83.7,168.6h132.5V36.1H83.7V168.6z M196.5,55.9v92.9h-92.9V55.9H196.5z"/>
+<path fill="#9B3B23" d="M0,300h300V0H0V300z M255.4,44.8v210.3H45.1V44.8H255.4z"/>
 <g id="logo_1_" opacity="0">
 	
 		<text id="side-A_1_" transform="matrix(1 0 0 1 119.8696 146.0459)" fill="#1DAA8B" font-family="'HelveticaNeue-Light'" font-size="57.8667px">A</text>
 	
 		<text id="side-z_1_" transform="matrix(1 0 0 1 156.7207 145.9248)" fill="#1DAA8B" font-family="'HelveticaNeue-Light'" font-size="51.3103px">z</text>
-</g>
-<g id="side-Graphics_1_">
-	<text transform="matrix(1 0 0 1 94.8001 224)" fill="#DDDDDD" font-family="'Exo-Regular'" font-size="40px">Home</text>
 </g>
 </svg>

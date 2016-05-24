@@ -23,7 +23,8 @@
 //
 
 .menuwebsites{
-  width: 33%;
+  //width: 33%;
+  width:235px;
   background-color: $bgmed;
   margin: 1rem;
   padding:0rem;
@@ -49,8 +50,10 @@
 }
 .navigation li:hover{
     display: flex;
-    width: 105%;
+    //width: 105%;
     transition: all .1s;
+    //box-shadow: 5px 0px 0px 0px $red, -5px 0px 0px 0px $reddark;
+
 }
 
 .webmenulink{
@@ -62,42 +65,41 @@
 }
 
 .navigation li a{
-  //border: 1px solid $bgdark;
-  color: $bgmed;
+  color: lighten($bglight, 50%);
   font-size: 1rem;
   transition: all .3s;
 
 }
 .navigation li a:hover{
   color: darken($white,10%);
-  font-size: 1.1rem;
-  transition: all .2s;
-  padding: 1.1rem;
-  box-shadow: 0px 0px 15px  $bgdark;
+  box-shadow:  5px 0px 0px 0px $reddark, -5px 0px 0px 0px $reddark, 0px 0px 15px  $bgdark;
   z-index: 3;
   border: auto -3rem;
+  transition: all .2s;
 }
 
 
 .navigation li a:active{
-  margin: .1rem;
+  background-color: $red;
+  box-shadow:  0px 0px 0px 0px $reddark, 0px 0px 0px 0px $reddark, 0px 0px 0px  $bgdark;
   transition: all .1s;
-  box-shadow: 1px 0px 10px $bgdark;
+  box-shadow: inset 0px 0px 15px 1px darken($reddark, 5%);
+  transition: all .1s;
 }
 
 
 .navigation li a.current{
     background-color: $red;
     color: $white;
-    box-shadow: 1px 0px 10px $bgdark;
     z-index: 4;
 }
 
 .navigation li.current{
-  width: 105%;
+  box-shadow:  5px 0px 0px 0px $red, -5px 0px 0px 0px $red, 0px 0px 15px  $bgdark;
 }
 
 .navigation li a.current:hover{
+  box-shadow:  5px 0px 0px 0px $red, -5px 0px 0px 0px $red, 0px 0px 15px  $bgdark;
     background-color: $red;
     color: $white;
     z-index: 4;
@@ -113,22 +115,22 @@
 .gotherebotton {
   display: block;
   margin: 1rem auto;
+float: right;
   text-align: center;
   background-color: $reddark;
-  color: $white;
-  //border: 1px solid $bgdark;
-  color: $bglight;
-  width: 33%;
+  color: lighten($bglight, 50%);;
+  width: calc(235px - 1rem);
   //margin: 1rem 0;
   padding:1rem;
   text-align: center;
   transition: all .1s;
+  width:170px;
 
 }
 
 .gotherebotton:hover{
   color: darken($white,10%);
-  width: 37%;
+  //width: 235px;
   // padding-left: 2.5%;
   // padding-right: 2.5%;
   transition: all .1s;
@@ -164,7 +166,7 @@
 
 
 .languages{
-  width: 33%;
+  width: 235px;
   background-color: $bgmed;
   margin: 1rem;
   padding:0rem;
@@ -198,109 +200,42 @@
 .website-feature{
   width:100%;
 }
-
-//
-//
-//
-//
-//
-//
-.abilities-container{
-  padding: 10rem;
-  margin-top: -5rem;
-}
-.abilities-container p{
-  text-align: center;
-}
-
-.abilities{
-	list-style:none;
-	margin: 1.5em 0;
-
-	li{
-		margin-bottom: 0.5em;
-		padding: 0.5em 1em;
-		color: #fff;
-    transition: all .2s;
-
-	}
-  li:hover{
-    margin-bottom: 0.5em;
-    padding: 0.6em 1em;
-    color: #fff;
-    box-shadow: 0px 0px 10px 10px $bgdark;
-    transition: all .2s;
+@media only screen and (max-width : 565px) {
+  .webcontainer{
+    flex-direction: column;
+    align-items: center;
+    //width: 100%;
+    padding: 1rem;
+    //margin:1rem;
   }
-}
-
-[class^="ability-"] {
-	position:relative;
-
-	&:before,
-	&:after{
-		position: absolute;
-		content: "";
-
-
-	}
-	&:before{
-		content:"dd";
-		top: 0.5em;
-		margin-left: -2em;
-		text-align: right;
-		color: $white;
-	}
-	&:after{
-		top:0;
-		left: 0;
-		height: 100%;
-		width:0;
-		// background: $red;
-    //background: linear-gradient(to right,
-    //  $yellow 20%, $red 80%);
-		z-index: -1;
-        &:after:hover{
-          box-shadow: 0px 0px 16px $bgdark;
-          width: 0;
-        }
-	}
+  .webcontainer2{
+    //width:100%;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    //margin: 1rem;
 
 
-
-}
-
-$abilities: (
-	'photoshop': 95,
-	'illustrator': 80,
-	'ui': 90,
-	'html': 95,
-	'css' : 94,
-	'jekyll': 100,
-	'git': 15
-);
-
-
-@each $ability, $score in $abilities {
-  [class^="ability-"]:after{
-    background: linear-gradient(to right,
-      $yellow 0% , $red 100% );
   }
-	@keyframes show-ability-#{$ability}{
-		from {
-      width: 0;
-    }
-		to {
-      width: $score * 1%;
-    }
-	}
-	.ability-#{$ability}{
-		&:before {
-			content: "#{$score}";
-			left: $score * 1%;
-		}
-		&:after {
-			animation: show-ability-#{$ability} ease-in-out 1s 2s 1;
-			animation-fill-mode: forwards;
-		}
-	}
+.post,
+.languages,
+.website-picture,
+.menuwebsites {
+  width: 70%;
+  margin:1rem;
+  padding:1rem;
+}
+.gotherebotton{
+  float: none;
+}
+
+}
+
+@media only screen and (max-width : 999px) {
+  .webcontainer{
+    margin-top: -7rem;
+  }
+
 }

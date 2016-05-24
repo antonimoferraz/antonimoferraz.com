@@ -2,19 +2,30 @@
 
 <div class="mobile-nav">
 
-      <div class="nav-item menu-tri">
-          <a href="websites.html">
-          {% include triangle.svg %}
-          </a>
-          <div class="info"><p>Websites</p></div>
-      </div>
+  <div class="nav-item menu-qua">
+    <a href="index.html">
+      <div class=""> {% include square.svg %}</div>
+      <p class="mobile-nav-item">Home</p>
+    </a>
+  </div>
 
-      <div class="nav-item menu-cir">
-          <a href="graphics.html">
-            {% include circle.svg %}
-          </a>
-          <div class="info"><p>Graphics</p></div>
-      </div>
+    <div class="nav-item menu-tri">
+        <a href="websites.html">
+          <div class="">
+        {% include triangle.svg %}</div>
+        <p class="mobile-nav-item">Websites</p>
+        </a>
+
+    </div>
+
+    <div class="nav-item menu-cir">
+        <a href="graphics.html">
+          <div class="">
+          {% include circle.svg %}</div>
+          <p class="mobile-nav-item">Graphics</p>
+        </a>
+
+    </div>
 
 </div>
 
@@ -23,36 +34,44 @@
 <div class="wrap-header">
   <header class="wrap-position">
 
-<div class="copy-right-container"><p class="copy-right">antonimo ferraz</p></div>
+
+    <div class="copy-right-container">
+        <p class="copy-right">antonimo ferraz</p>
+    </div>
+
+    <nav class="site-nav">
 
 
-      <nav class="site-nav">
 
-        <div>
+        <div class="nav-item menu-tri">
           <a href="index.html">
-            <div class="nav-item menu-tri"> {% include square.svg %}</div>
+             {% include square.svg %}
+            <p class="mobile-nav-item">Home</p>
           </a>
         </div>
 
           <div class="nav-item menu-tri">
               <a href="websites.html">
-              {% include triangle.svg %}
+            {% include triangle.svg %}
+              <p class="mobile-nav-item">Websites</p>
               </a>
 
           </div>
 
           <div class="nav-item menu-cir">
               <a href="graphics.html">
+
                 {% include circle.svg %}
+                <p class="mobile-nav-item">Graphics</p>
               </a>
 
           </div>
 
-      </nav>
 
-      <p class="copy-right">© 2016</p>
 
-      <div class="mobile-nav-toggle"><span></span></div>
+    </nav>
+<p class="copy-right2">© 2016</p>
+    <div class="mobile-nav-toggle"><span>{% include menuicon.svg %}</span></div>
 
   </header>
 </div>

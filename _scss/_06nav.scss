@@ -1,17 +1,21 @@
 // NAV
-
+.thenav{
+	z-index: 10;
+}
 .wrap-header{
 	width:235px;
   height:100%;
 	padding: 30px 0;
-	z-index: 4;
+	z-index: 7;
 	float:left;
   position: relative;
 	background-color:$bgdark;
+
 }
 
 .wrap-position{
-	background-color:darken( $bgdark, 1% );
+	background-color:darken( $bgdark, 2% );
+	z-index:8;
 	height:100%;
   width:235px;
   max-width: 100%;
@@ -36,82 +40,140 @@
 	padding: 0;
 	color: $red;
 	text-align: center;
-	//margin-top: -2.9rem;
-	// background: url(../img/AZlogo.svg);
-	// background-size: contain;
-	// background-repeat: no-repeat;
 }
-.copy-right-container{
-	margin-bottom: -5rem;
-}
+// .copy-right-container{
+// 	margin-bottom: -5rem;
+// }
 .copy-right{
 	color: $bglight;
+	text-align: center;
+
 }
 
+.copy-right2{
+	color: $bglight;
 
-
-
-
-
+}
 
 
 .site-nav{
   margin-top: 3rem;
-  color: $greendark;
-}
-.info{
-	margin-top: -1.1rem;
-}
-.site-nav .menu-items{
- margin:0;
- padding:0;
-}
-.nav-item{
-  margin:1rem auto;
-  text-align: center;
-  width:60%;
-  text-align: center;
-  padding-bottom: 1rem;
-  margin-bottom: 0rem;
 
 }
-.nav-item a svg * {
-	box-shadow: 6px 6px 6px 6px darken($bgdark, 6%);
+
+
+.nav-item{
+  margin:0rem auto;
+  text-align: center;
+  width:30%;
+  text-align: center;
+  //padding-bottom: 1rem;
+  margin-bottom: 2rem;
 }
+.nav-item a p{
+	margin-top: -.1rem;
+}
+
 .wrap-position{
   text-align: center;
 }
 .wrap-position a{
   margin-top: 6rem;
 }
+.mobile-nav-toggle{
+	width:0px;
+	height:0px;
+	//display:none;
+}
 
 .mobile-nav,.mobile-nav.is-open{
 	display:none;
+}
+.site-nav div a p{
+	background-color: $reddark;
+	color: lighten($bglight, 50%);;
+	padding: .3rem 0rem;
+font-size: 2vh;
+margin-top: .3rem;
+transition: all .2s;
+
+}
+
+.site-nav div {
+				 a:hover{
+					color: $white;
+					padding: .4rem 0rem;
+					font-size: 2vh;
+					margin-top: .3rem;
+					p{
+						//box-shadow: 5px 0px 0px 0px $red, -5px 0px 0px 0px $red;
+						background-color: $red;
+						color: $white;
+						transition: all .2s;
+					}
+				}
+				&:nth-child(1){
+
+					a:hover {
+							//margin-bottom: -2px;
+
+
+						svg path{
+							fill: lighten( $red, 10%) !important;
+							transition: all .1s;
+
+						}
+					}
+				}
+				&:nth-child(2){
+					//margin-bottom: -2px;
+					a:hover{
+							//margin-bottom: -2px;
+
+
+						svg path{
+							fill: lighten( $greendark , 10%) !important;
+							transition: all .1s;
+
+						}
+					}
+				}
+				&:nth-child(3){
+					a:hover {
+						margin-bottom: -20px;
+
+
+						svg path{
+							fill: lighten( $yellow , 10%) !important;
+							transition: all .1s;
+
+						}
+					}
+				}
 }
 
 
 
 @media only screen and (max-width : 767px) {
+
   .wrapall{
     display: flex;
     flex-direction:column;
     flex-wrap: nowrap;
     overflow:visible;
     width:100%;
+
   }
     .wrap-header{
-      width:100vw;
+      width:100%;
       display: block;
     	padding: 0;
-    	z-index: 4;
+    	z-index: 8;
     	float:none;
-
-    		height:auto;
-    		min-height:auto;
-        border-bottom: 4px solid $red;
-
-
+  		height:auto;
+  		min-height:auto;
     }
+
     .wrap-position{
 	    display: flex;
 	    flex-direction: row;
@@ -123,6 +185,8 @@
 			left:auto;
 			flex-direction: row;
 			align-items: center;
+			background-color:darken( $bgdark, 3% );
+			box-shadow: 0px 0px 5px 5px darken( $bgdark, 4% );
     }
     .navlogo{
     	top:0;
@@ -141,59 +205,137 @@
     }
 
     .mobile-nav-toggle{
-    	margin:1rem;
   	  margin-right:3rem;
     	width:50px;
-    	height:35px;
-  		max-width:auto;
-  		background: url(/img/menu2.svg);
-    	background-size: contain;
-    	background-repeat: no-repeat;
+    	height:50px;
     	cursor: pointer;
     }
-    .navlogo{
-			margin:1rem;
-			margin-left:3rem;
-			padding:0;
-			background: url(/img/AZlogo.svg);
-			background-size: contain;
-			background-repeat: no-repeat;
-			max-width:auto;
-			width:50px;
-			height:35px;
-    }
+
 
     .mobile-nav{
   		position:absolute;
-  		z-index:1;
+  		z-index:6;
   		width:100%;
-  		background: white;
+  		background: darken( $bgdark, 3% );
   		padding: 30px 0 20px;
   		transform: translateY(-100%);
   		transition: all 2s ease-in-out;
-
-	  		ul{
-	  			list-style: none;
-	  			margin-top:40px;
-
-	  			li{
-	  				text-align: center;
-	  				margin:1rem;
-	  			}
-	  		}
-
+			margin: 0 auto;
+			text-align: center;
     }
+
     .mobile-nav.is-open{
       display:block;
     	transform: translateY(0%);
     	transition: all 2s ease-in-out;
+			box-shadow: 0px 0px 5px 5px darken( $bgdark, 4% );
     }
 
+		.nav-item {
+			display: inline-block;
+			width: 15%;
+			margin: 0 2rem;
+			margin-top: 4rem;
+		}
+
+		.nav-item a p{
+			margin-top: .5rem;
+			text-align: center;
+		}
+		.mobile-nav div a p{
+			background-color: $reddark;
+			color: lighten($bglight, 50%);;
+			padding: .3rem 0rem;
+			font-size: 2vh;
+			margin-top: .3rem;
+			transition: all .2s;
+
+		}
+
+		.mobile-nav div {
+					   a:hover{
+							color: $white;
+							padding: .4rem 0rem;
+							font-size: 2vh;
+							margin-top: .3rem;
+							p{
+								box-shadow: 0px 0px 1px darken( $bgdark, 50%);
+								box-shadow: 5px 0px 0px 0px $red, -5px 0px 0px 0px $red;
+								background-color: $red;
+								color: $white;
+								transition: all .2s;
+							}
+						}
+						&:nth-child(1){
+
+							a:hover div{
+									margin-bottom: -2px;
+									transition: all .1s;
+
+								svg path{
+									fill: lighten( $red, 10%) !important;
+									transition: all .1s;
+
+								}
+							}
+						}
+						&:nth-child(2){
+							margin-bottom: -2px;
+							a:hover div{
+									margin-bottom: -2px;
+									transition: all .1s;
+
+								svg path{
+									fill: lighten( $greendark , 10%) !important;
+									transition: all .1s;
+
+								}
+							}
+						}
+						&:nth-child(3){
+							a:hover div{
+								margin-bottom: -2px;
+								transition: all .1s;
+
+								svg path{
+									fill: lighten( $yellow , 10%) !important;
+									transition: all .1s;
+
+								}
+							}
+						}
+		}
+
+
+
+
+		.copy-right-container{
+			margin:0;
+			padding:.5rem;
+			margin-left:2rem;
+
+		}
+
+		.copy-right2{
+			color: $bglight;
+			margin-left: -6rem;
+		}
 
 
 
 
 
+}
+
+@media only screen and (max-width : 435px) {
+	.nav-item{
+		margin: 4rem 1rem;
+		margin-bottom: 1rem;
+	}
+	.nav-item a p{
+
+text-align: center;
 
 
+	}
 }

@@ -62,13 +62,47 @@ function mobileNav() {
       }
   }
 
-  // (function() {
-       var sneaky = new ScrollSneak(location.hostname)
-  //     tabs = document.getElementById('sneakytest').getElementsByTagName('li'), i = 0, len = tabs.length;
-  //     for (; i < len; i++) {
-  //         tabs[i].onclick = sneaky.sneak;
-  //     }
-  //     //document.getElementById('next').onclick = sneaky.sneak;
-  // })();
+ var sneaky = new ScrollSneak(location.hostname)
 
 $('#sneakytest').click(sneaky.sneak);
+
+
+$(".contactlogo").hover(over, out);
+
+      function over(){
+      TweenMax.to("#ro2", 20, {
+        rotation:360,
+        transformOrigin:"50% 50%",
+        repeat:-1,
+
+
+      });
+      }
+
+      function out(){
+      TweenMax.to("#ro2", 2, {
+        rotation:0,
+        transformOrigin:"50% 50%",
+
+      });
+      }
+
+
+
+
+$(".socialicon").hover(over2, out2);
+
+    function over2(){
+    TweenMax.to(this, 20, {
+      rotation:360,
+      transformOrigin:"50% 50%",
+      repeat:-1
+    });
+    }
+
+    function out2(){
+    TweenMax.to(this, 0.5, {
+      rotation:0,
+      transformOrigin:"50% 50%"
+    });
+    }
