@@ -93,7 +93,7 @@
 	background-color: $reddark;
 	color: lighten($bglight, 50%);;
 	padding: .3rem 0rem;
-font-size: 2vh;
+//font-size: 2vh;
 margin-top: .3rem;
 transition: all .2s;
 
@@ -103,7 +103,7 @@ transition: all .2s;
 				 a:hover{
 					color: $white;
 					padding: .4rem 0rem;
-					font-size: 2vh;
+					//font-size: 2vh;
 					margin-top: .3rem;
 					p{
 						//box-shadow: 5px 0px 0px 0px $red, -5px 0px 0px 0px $red;
@@ -233,7 +233,7 @@ transition: all .2s;
 
 		.nav-item {
 			display: inline-block;
-			width: 15%;
+			width: 17%;
 			margin: 0 2rem;
 			margin-top: 4rem;
 		}
@@ -333,9 +333,9 @@ transition: all .2s;
 		margin-bottom: 1rem;
 	}
 	.nav-item a p{
-
 text-align: center;
-
-
+	}
+	.copy-right2{
+		display:none;
 	}
 }

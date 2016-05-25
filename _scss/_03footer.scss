@@ -52,12 +52,20 @@
 @media only screen and (max-width : 985px) {
   .contacts{
     flex-wrap: wrap;
+
   }
   .contactlogo{
     margin: 0;
     width:100%;
     order:         2;
     align-self: center;
+    flex-direction: column;
+    padding:0;
+    //background-color: pink;
+    height: auto;
+    // justify-content: flex-start;
+    // align-items: flex-start;
+    // align-content: flex-start;
     //margin-left: -19%;
 
   }
