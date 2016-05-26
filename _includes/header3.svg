@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="header-space" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 600 200" enable-background="new 0 0 600 200" xml:space="preserve">
@@ -8,29 +8,13 @@
 <polygon id="XMLID_682_" fill="#168068" points="0,200 33.4,133.2 49.7,151.2 67.2,134.4 79.9,161.1 100.3,150.4 133.4,167.9 
 	167,134.4 199.1,200 232.9,133.6 249.1,151.2 265.6,134 279.2,161.1 299.6,150.4 332.2,167.4 365.7,134.4 400.7,200 432.8,134.4 
 	449.8,150.2 466.9,134.4 479.6,161.1 500.5,150.4 532.6,167.4 566.7,134.4 599.9,200 "/>
-<circle id="XMLID_681_" fill="#E9A30C" cx="484.5" cy="59.3" r="24.1"/>
-<circle id="XMLID_680_" fill="none" stroke="#E9A30C" stroke-miterlimit="10" cx="484.5" cy="59.3" r="29.1"/>
 <polygon id="XMLID_678_" fill="#1DAA8B" points="1.1,199.7 49.7,151.2 100.2,199.8 133.5,134.6 200.2,199.7 249.1,151.2 
 	299.3,199.8 332.8,134.4 400.7,200 449.8,150.2 500.9,199.8 500.9,199.8 533.1,134.4 599.9,200 "/>
 <polygon id="XMLID_677_" fill="#4ABBA2" points="0,200 65.4,166.4 100.2,200 133.9,166 199.7,199.2 264.3,165.9 298.5,198 
 	334,165.4 400.7,200 465.4,165.6 500.9,200 534.4,166.8 600,200 "/>
-<g id="XMLID_659_" opacity="0">
-	<polygon id="XMLID_676_" fill="#43CE8B" points="269.1,53.2 277.9,38 286.7,53.2 	"/>
-	<polygon id="XMLID_675_" fill="#43CE8B" points="377.2,63.3 403.8,49.3 402.6,79.3 	"/>
-	<polygon id="XMLID_674_" fill="#43CE8B" points="189.3,74.2 191.1,51.4 210,64.4 	"/>
-	<polygon id="XMLID_673_" fill="#43CE8B" points="142.1,48.5 144,25.7 162.8,38.7 	"/>
-	<polygon id="XMLID_672_" fill="#43CE8B" points="87.5,75.3 89.3,52.4 108.2,65.4 	"/>
-	<polygon id="XMLID_671_" fill="#43CE8B" points="99,35.6 110.7,30 109.7,42.9 	"/>
-	<polygon id="XMLID_670_" fill="#43CE8B" points="287.6,63.5 299.3,57.8 298.3,70.7 	"/>
-	<polygon id="XMLID_669_" fill="#43CE8B" points="354,31.3 365.7,25.7 364.8,38.6 	"/>
-	<polygon id="XMLID_668_" fill="#43CE8B" points="259.7,77.4 271.4,71.8 270.5,84.7 	"/>
-	<polygon id="XMLID_667_" fill="#43CE8B" points="254.4,63.5 266,57.8 265.1,70.7 	"/>
-	<polygon id="XMLID_666_" fill="#43CE8B" points="120.4,46.3 132.1,40.7 131.2,53.6 	"/>
-	<polygon id="XMLID_665_" fill="#43CE8B" points="557.6,29.2 569.3,23.5 568.4,36.5 	"/>
-	<polygon id="XMLID_664_" fill="#43CE8B" points="587.6,63.5 599.3,57.8 598.4,70.7 	"/>
-	<polygon id="XMLID_663_" fill="#43CE8B" points="54,63.5 65.6,57.8 64.7,70.7 	"/>
-	<polygon id="XMLID_662_" fill="#43CE8B" points="465.1,46.2 491.6,32.2 490.5,62.2 	"/>
-	<polygon id="XMLID_661_" fill="#43CE8B" points="513,53.9 531.6,30.3 542.7,58.2 	"/>
-	<polygon id="XMLID_660_" fill="#43CE8B" points="544.4,63.3 570.9,49.3 569.8,79.3 	"/>
-</g>
+<a id="sun" xlink:href="#backtop" >
+	<circle id="sunin" fill="#E9A30C" cx="484.5" cy="59.3" r="24.1"/>
+	<circle id="sunout" fill="none" stroke="#E9A30C" stroke-miterlimit="10" cx="484.5" cy="59.3" r="29.1"/>
+	<path id="suntop" fill="#2B2928" d="M484,42.2l-15.9,27.6h31.9L484,42.2z M484,49.7l9.8,16.9h-19.5L484,49.7z"/>
+</a>
 </svg>
