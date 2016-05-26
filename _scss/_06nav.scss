@@ -91,7 +91,7 @@
 }
 .site-nav div a p{
 	background-color: $reddark;
-	color: lighten($bglight, 50%);;
+	//color: lighten($bglight, 50%);
 	padding: .3rem 0rem;
 //font-size: 2vh;
 margin-top: .3rem;
@@ -103,10 +103,8 @@ transition: all .2s;
 				 a:hover{
 					color: $white;
 					padding: .4rem 0rem;
-					//font-size: 2vh;
 					margin-top: .3rem;
 					p{
-						//box-shadow: 5px 0px 0px 0px $red, -5px 0px 0px 0px $red;
 						background-color: $red;
 						color: $white;
 						transition: all .2s;
