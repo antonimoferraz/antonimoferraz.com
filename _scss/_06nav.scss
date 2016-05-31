@@ -197,7 +197,27 @@
     	width:50px;
     	height:50px;
     	cursor: pointer;
+			#Layer_1 > g:nth-child(1) > path{
+				transform: scale(1);
+			}
+			transition: all .2s;
     }
+		.mobile-nav-toggle:hover{
+			width: 55px;
+			height: 55px;
+			margin-left: -5px;
+			transition: all .3s;
+			#Layer_1 > g:nth-child(1) > path{
+				transform: scale(.9);
+				transform: translateX(-1px);
+			}
+		}
+		.mobile-nav-toggle:active{
+			width: 53px;
+			height: 53px;
+			margin-left: -2px;
+		//	transition: all .3s;
+		}
 
 
     .mobile-nav{
@@ -207,16 +227,16 @@
   		background: darken( $bgdark, 3% );
   		padding: 30px 0 20px;
   		transform: translateY(-100%);
-  		transition: all 2s ease-in-out;
+  	//	transition: all 2s ease-in-out;
 			margin: 0 auto;
 			text-align: center;
     }
 
     .mobile-nav.is-open{
       display:block;
-    	transform: translateY(0%);
-    	transition: all 2s ease-in-out;
-			box-shadow: 0px 0px 5px 5px darken( $bgdark, 4% );
+    	 transform: translateY(0%);
+    	 //transition: all 2s ease-in-out;
+			// box-shadow: 0px 0px 5px 5px darken( $bgdark, 4% );
     }
 
 		.nav-item {
@@ -234,7 +254,7 @@
 			background-color: $reddark;
 			color: lighten($bglight, 50%);;
 			padding: .3rem 0rem;
-			font-size: 2vh;
+			//font-size: 2vh;
 			margin-top: .3rem;
 			transition: all .2s;
 

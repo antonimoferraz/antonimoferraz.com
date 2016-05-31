@@ -1,38 +1,59 @@
-$(function() {
+//////////////////////
+// MOBILE NAV
+//////////////////////
 
-function mobileNav() {
-  $('.mobile-nav-toggle').on('click', function(){
-    var status = $(this).hasClass('is-open');
-    if(status){ $('.mobile-nav-toggle, .mobile-nav').removeClass('is-open'); }
-    else { $('.mobile-nav-toggle, .mobile-nav').addClass('is-open'); }
-  });
+
+function mobileNav(top1, duration1, easing1){
+
+    var mobileNav2 = Sizzle('.mobile-nav');
+
+    Velocity(mobileNav2,{
+      top: top1,
+    },{
+      duration: duration1,
+      easing: easing1
+    });
 }
 
 
+var mobilenav = Sizzle('.mobile-nav-toggle');
 
- mobileNav();
-  });
+   for (var i=0;i<mobilenav.length;i++){
+
+         mobilenav[i].addEventListener('click', function() {
+
+
+               function hasClass(element, cls) {
+                   return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+               }
 
 
 
+                  var thetoggle = document.getElementById("thetoglee");
 
-  /*!
-   * Scroll Sneak
-   * http://mrcoles.com/scroll-sneak/
-   *
-   * Copyright 2010, Peter Coles
-   * Licensed under the MIT licenses.
-   * http://mrcoles.com/media/mit-license.txt
-   *
-   * Date: Mon Mar 8 10:00:00 2010 -0500
-   */
+                   if( hasClass( thetoggle , "is-open" ) ) {
+                      thetoggle.classList.remove('is-open');
+                      mobileNav("-100%", 1100, "spring");
+                   } else {
+                     thetoggle.classList.add('is-open');
+                      mobileNav("0%", 1400, "spring");
+
+                  }
+         });
+
+   }
+
+
+
+//////////////////////
+// scroll sneak
+//////////////////////
+
   var ScrollSneak = function(prefix, wait) {
-      // clean up arguments (allows prefix to be optional - a bit of overkill)
       if (typeof(wait) == 'undefined' && prefix === true) prefix = null, wait = true;
       prefix = (typeof(prefix) == 'string' ? prefix : window.location.host).split('_').join('');
       var pre_name;
 
-      // scroll function, if window.name matches, then scroll to that position and clean up window.name
       this.scroll = function() {
           if (window.name.search('^'+prefix+'_(\\d+)_(\\d+)_') == 0) {
               var name = window.name.split('_');
@@ -40,7 +61,6 @@ function mobileNav() {
               window.name = name.slice(3).join('_');
           }
       }
-      // if not wait, scroll immediately
       if (!wait) this.scroll();
 
       this.sneak = function() {
@@ -64,45 +84,60 @@ function mobileNav() {
 
  var sneaky = new ScrollSneak(location.hostname)
 
-$('#sneakytest').click(sneaky.sneak);
+//$('#sneakytest').click(sneaky.sneak);
 
 
-$(".contactlogo").hover(over, out);
-
-      function over(){
-      TweenMax.to("#ro2", 20, {
-        rotation:360,
-        transformOrigin:"50% 50%",
-        repeat:-1,
-
-
-      });
-      }
-
-      function out(){
-      TweenMax.to("#ro2", 2, {
-        rotation:0,
-        transformOrigin:"50% 50%",
-
-      });
-      }
+ if (document.getElementById('sneakytest')) {
+   document.getElementById('sneakytest').onclick = sneaky.sneak;
+ }
 
 
 
+//////////////////////
+// CONTACT
+//////////////////////
 
-$(".socialicon").hover(over2, out2);
+function rotating($obj, $dur, $rot, $repeat){
+  TweenMax.to($obj, $dur, {
+    rotation: $rot,
+    transformOrigin:"50% 50%",
+    repeat: $repeat,
+  });
+}
 
-    function over2(){
-    TweenMax.to(this, 20, {
-      rotation:360,
-      transformOrigin:"50% 50%",
-      repeat:-1
-    });
-    }
 
-    function out2(){
-    TweenMax.to(this, 0.5, {
-      rotation:0,
-      transformOrigin:"50% 50%"
-    });
-    }
+var contactlogo = document.getElementById('logologo');
+
+contactlogo.addEventListener('mouseover', function() {
+    rotating("#ro2", 20, 360, -1);
+});
+
+contactlogo.addEventListener('mouseout', function() {
+    rotating("#ro2", 2, 0, 0);
+});
+
+
+var socialicon = document.querySelectorAll('.socialicon');
+
+for (var i=0;i<socialicon.length;i++){
+  socialicon[i].addEventListener('mouseover', function() {
+      rotating(this, 20, 360, -1);
+  });
+  socialicon[i].addEventListener('mouseout', function() {
+      rotating(this, 0.5, 0, 0);
+  });
+}
+
+//////////////////////
+// scroll
+//////////////////////
+
+
+   var jump = function(event){
+
+       event.preventDefault();
+       TweenLite.to(window, 1, {scrollTo:{y: 0 }, ease:Power2.easeOut});
+   }
+
+var sun = document.getElementById("sun");
+sun.addEventListener('click', jump);

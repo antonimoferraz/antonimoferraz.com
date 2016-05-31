@@ -115,9 +115,12 @@ img{
 
 
 .message-board{
-  border: 14px solid  $greendark;
+  align-self: center;
+  margin: 0 auto;
+  border: 10px solid  $greendark;
   width: 221px;
-  height: 221px;
+  // height: 221px;
+  width: 13vw;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -126,7 +129,8 @@ img{
   align-content: center;
   text-align: center;
   color: $white;
-  font-size: 23px;
+  //font-size: 23px;
+  padding: 1rem;
 }
 
 .footerill{
