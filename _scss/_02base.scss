@@ -166,6 +166,7 @@ width: 235px;
 //
 
 .abilities-container{
+      align-self: center;
   margin-top: -5rem;
   width:235px;
   margin: 0 auto;
@@ -289,7 +290,7 @@ $abilities: (
     //font-size: 4vw;
   }
   .abilities-container{
-    padding: 4rem;
+    //padding: 4rem;
     margin-top: -4rem;
   }
 
