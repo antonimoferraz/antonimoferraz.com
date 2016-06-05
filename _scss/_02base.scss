@@ -281,6 +281,11 @@ $abilities: (
 .counttitle{
   text-align: center;
 }
+#ro{
+
+    transform-origin: 50% 50%;
+
+}
 
 @media only screen and (max-width : 880px) {
   .countmecontainer{

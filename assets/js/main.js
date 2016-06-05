@@ -105,11 +105,15 @@ function rotating($obj, $dur, $rot, $repeat){
   });
 }
 
+function rotationAnimation(elem, degrees, pointX, pointY, time){
+  elem.animate({transform:"r"+[degrees,pointX,pointY]}, time);
+}
 
 var contactlogo = document.getElementById('logologo');
 
 contactlogo.addEventListener('mouseover', function() {
-    rotating("#ro2", 20, 360, -1);
+  rotating("#ro2", 20, 360, -1);
+    //Velocity( document.getElementById('ro'), { rotateZ: '360deg' }, 5000 );
 });
 
 contactlogo.addEventListener('mouseout', function() {
@@ -136,8 +140,12 @@ for (var i=0;i<socialicon.length;i++){
    var jump = function(event){
 
        event.preventDefault();
+       event.stopPropagation();
        TweenLite.to(window, 1, {scrollTo:{y: 0 }, ease:Power2.easeOut});
+
    }
 
 var sun = document.getElementById("sun");
+//sun.addEventListener('click', jump);
 sun.addEventListener('click', jump);
+//sun.addEventListener.onclick = jump;
