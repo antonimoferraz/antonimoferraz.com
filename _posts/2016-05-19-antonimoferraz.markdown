@@ -6,7 +6,7 @@ categories: websites
 feature: true
 featuredimage: "/img/web/youarehere.svg"
 secondimage: "/img/web/joaosaramago.gif"
-tags: HTML CSS SASS jQuery Jekyll Git Github-pages Liquid SVG
+tags: HTML CSS SASS Jekyll Git Github-pages Liquid SVG GSAP Velocity
 gotherebotton: false
 ---
 
